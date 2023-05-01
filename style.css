@@ -259,6 +259,11 @@ p{
 
 /*other big versions*/
 @media (min-width:766px) {
+    .section-head{
+        margin: 70px 0;
+        padding: 0 15px 50px;
+    
+    }
     .About>div:last-child{
         display: flex;
     }
@@ -322,7 +327,7 @@ h4{
 /*other big versions*/
 @media (min-width:766px) {
     .Team{
-        padding: 0 10%;
+        padding: 5% 10%;
     }
     .Team>div:last-child{
         display: flex;
@@ -373,7 +378,7 @@ h4{
 /*other big versions*/
 @media (min-width:766px) {
     .Services{
-        padding: 0 10%;
+        padding: 5% 10%;
     }
     .Services>div:last-child{
         display: flex;
@@ -530,7 +535,7 @@ blockquote p{
 /*other big versions*/
 @media (min-width:766px) {
     .Testimonials{
-        padding: 0 10%;
+        padding: 5% 10%;
     }
     .Testimonials>div:last-child{
         display: flex;
@@ -603,7 +608,7 @@ blockquote p{
 /*other big versions*/
 @media (min-width:766px) {
     .Pricing{
-        padding: 0 10%;
+        padding: 0 10% 10%;
     }
     .Pricing>div:last-child{
         display: flex;
@@ -684,12 +689,13 @@ blockquote p{
 /*other big versions*/
 @media (min-width:766px) {
     .Press{
-        padding: 0 10%;
+        padding: 5% 10%;
     }
     .Press>div:last-child{
         display: flex;
         flex-direction: row;
         justify-content: center;
+        flex-wrap: wrap;
         gap: 50px;
     }
     .one-press{
@@ -698,11 +704,9 @@ blockquote p{
         justify-content: center;
         align-items: center;
         background-color: #ffffff;
-    }
-    .one-press{
         padding: 0 15px;
         margin: 20px 0;
-        width: 40%;
+        width:40%;
     }
 }
 
